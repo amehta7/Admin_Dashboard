@@ -1,7 +1,17 @@
 import React from 'react'
+import Header from '../components/Header'
+import { Box } from '@mui/material'
+import BarChart from '../components/BarChart'
 
 const Bar = () => {
-  return <div>Bar</div>
+  return (
+    <Box m='20px'>
+      <Header title='BAR CHART' subtitle='Simple Bar Chart' />
+      <Box height='70vh'>
+        <BarChart />
+      </Box>
+    </Box>
+  )
 }
 
 export default Bar
