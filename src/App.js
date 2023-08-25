@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Topbar from './pages/global/Topbar'
 import { ColorModeContext, useMode } from './theme'
